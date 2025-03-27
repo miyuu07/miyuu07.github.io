@@ -1,0 +1,37 @@
+body {
+    font-family: Arial,sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+h1 {color: #ff4d4d;
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#yesbtn {
+    background-color: white !important;
+    color: black; !important;
+    border: 1px solid black !important
+}
+#nobtn {
+    background-color: #ccc;
+}
